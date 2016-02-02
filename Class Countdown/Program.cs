@@ -14,6 +14,7 @@ namespace Class_Countdown
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+
         [STAThread]
         static void Main()
         {
@@ -23,9 +24,12 @@ namespace Class_Countdown
             BaseClass();
             close.WaitOne();
         }
+
         static TimeSpan timespan = new TimeSpan();
         static Timer t = new Timer();
         static List<DateTime> times = new List<DateTime>();
+        static bool FoundClass = false;
+
         private static void BaseClass()
         {
             DateTime time = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 8, 20, 0);
@@ -43,6 +47,7 @@ namespace Class_Countdown
             t.Interval = 10;
             t.Start();
         }
+
         static Color txtColour()
         {
             if (timespan.TotalSeconds > 1600)
@@ -57,10 +62,14 @@ namespace Class_Countdown
         {
             return Math.Pow(A, 1.0 / N);
         }
+
         static FloatingOSDWindow window = new FloatingOSDWindow();
         static void t_Elapsed(object sender, ElapsedEventArgs e)
         {
             DateTime nxtPer = getNextPeriod();
+            if (!FoundClass)
+                return;
+
             timespan = (nxtPer - DateTime.Now);
             float StartSize = 1f;
             float EndSize = 40;
@@ -88,9 +97,13 @@ namespace Class_Countdown
             foreach (DateTime t in times)
             {
                 if (DateTime.Now < t)
+                {
+                    FoundClass = true;
                     return t;
+                }
             }
-            return DateTime.Now;
+            FoundClass = false;
+            return DateTime.Now; ;
         }
     }
 }

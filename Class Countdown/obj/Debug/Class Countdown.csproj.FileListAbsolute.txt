@@ -6,3 +6,11 @@ d:\documents\rjoshi1\my documents\visual studio 2012\Projects\Class Countdown\Cl
 d:\documents\rjoshi1\my documents\visual studio 2012\Projects\Class Countdown\Class Countdown\obj\Debug\Class Countdown.csproj.GenerateResource.Cache
 d:\documents\rjoshi1\my documents\visual studio 2012\Projects\Class Countdown\Class Countdown\obj\Debug\Class Countdown.exe
 d:\documents\rjoshi1\my documents\visual studio 2012\Projects\Class Countdown\Class Countdown\obj\Debug\Class Countdown.pdb
+D:\Documents\rjoshi1\My Documents\GitHub\Class-Mouse-Countdown\Class Countdown\bin\Debug\Class Countdown.exe.config
+D:\Documents\rjoshi1\My Documents\GitHub\Class-Mouse-Countdown\Class Countdown\obj\Debug\Class Countdown.exe
+D:\Documents\rjoshi1\My Documents\GitHub\Class-Mouse-Countdown\Class Countdown\obj\Debug\Class Countdown.pdb
+D:\Documents\rjoshi1\My Documents\GitHub\Class-Mouse-Countdown\Class Countdown\bin\Debug\Class Countdown.exe
+D:\Documents\rjoshi1\My Documents\GitHub\Class-Mouse-Countdown\Class Countdown\bin\Debug\Class Countdown.pdb
+D:\Documents\rjoshi1\My Documents\GitHub\Class-Mouse-Countdown\Class Countdown\obj\Debug\Class Countdown.csprojResolveAssemblyReference.cache
+D:\Documents\rjoshi1\My Documents\GitHub\Class-Mouse-Countdown\Class Countdown\obj\Debug\Class_Countdown.Properties.Resources.resources
+D:\Documents\rjoshi1\My Documents\GitHub\Class-Mouse-Countdown\Class Countdown\obj\Debug\Class Countdown.csproj.GenerateResource.Cache
